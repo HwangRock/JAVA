@@ -17,15 +17,10 @@ public class english extends JFrame {
 	    private Label problem,text,result,result2;
 	    private JTextField answer;
 	    
-	    public String[] eng= {"abide", "incredulous", "onset", "shard", "pinpoint", "pliale", "clout", "constellation", "daunt", "vociferous", "nocturnal", "capricious", 
-		"disseminate", "override", "pore", "stand for", "affront", "extraneous", "procurement", "jeer", "annihilate", "ferry", "stingy", "underway", "capitalize on", "owing to",
-		"prevail", "scour", "tout", "expressly", "wield", "appreciable", "locale", "pitiful", "predicament", "coalsce", "devoid of", "extol", "heed", "affiliate","albeit",
-		"apat form", "engaged", "exude", "inauspicious", "demise", "disinterested", "erdite", "impartial"};
+	    public String[] eng= {};
 	    //영어가 저장되는 곳
 
-	    public String[] mean= {"견디가,살아가다", "의심많은", "시작", "파편", "정확한", "유연한", "권력", "배열" ,"압도하다", "시끄러운", "야행성의", "변덕스러운", "퍼지다", "압도하다", "응시하다", "나타내다",
-	    		"모욕하다", "상관없는", "조달", "조롱하다", "전멸시키다", "수송하다", "인색한", "진행중인", "활용하다", "~때문에", "퍼지다,이기다", "찾다", "홍보하다", "명백히", "발휘하다","눈에 띄는", "위치", "불쌍한",
-	    		"곤경", "합치다", "없는", "칭찬하다", "주의하다", "연합하다", "비록~일지라도", "제외하고", "바쁜", "흘리다", "불길한", "죽음", "객관적인", "학식있는", "공정한"};
+	    public String[] mean= {};
 	    //한글뜻이 저장되는 곳.
 	    
 	    public int[]n=new int[11];//문제 배열
